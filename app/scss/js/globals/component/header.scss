@@ -1,0 +1,12 @@
+@use '../util' as *;
+.header {
+    @include breakpount(large){
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+    }
+}
+
+&__toggle{
+}
